@@ -24,8 +24,7 @@ This weeks assignments are :
 ### Functions
 
 Functions are statements that conduct tasks or calculates a value between variables in a relationship. These variables are able to be manipulated in order to achieve different results without going back and changing the original line of text for a specific piece of code. Functions must have names; names must be lowercase and must not contain spaces between them. Additionally, you must capitalize the letters  if they are different words. Parameters are the names or titles you give in order to manipulate your variables.
-- Example 
-How to write a function
+* `- Examples`: How to write a function
 Let x = 5;
 X; 5
 Let x = 10;
@@ -41,20 +40,21 @@ X = x + 5;
 ### Strings
 
 Strings are words or characters (like numbers) that are used to make up a sentence. They must all be separated by commas, and go between parenthesis' and are contained by quotation marks.
-- Example - 
+* `- Example` - a name, a number, a abbreviated word.
 
+* `- Strings` have characteristics or attributes that can be used to define or store part of a value. An example is length, measures the amount of characters and spaces in a string. 
+* `- Indexes` - counts characters in a string starting with 0. it will return undefined when you go past the character amount. Must have [# or character]. The last character is always at the index: *.length - 1*.
 
-Some terms are:
-* `Git Init` - which initiates the program.
-* `Git-clone (url)` - allows the user to create a copy of a file in a specific directory with all its files.
-* `Git add "name of file"` - allows you to update or upload your changes. 
-* `Git commit -m "a brief description of your changes"` - allows to you contain your items in a box before sending it to the factory. The factory will require you to push the send button in order to send the box with updates. This must be pushed to GITHUB.
-* `Git status` allows you to see if any changes have been committed (will be blank unless a change is made and will appear red).
-* `Git push` - will push your updated changes to GITHUB with a timestamp and the short description from above.
-* `Git pull` - allows you to see if anyone has made changes to the document. It is recommended that in group projects you always pull updates.
+* `Example` : getFirstCharacter - it takes in a parameter of type String and returns only the first character from it. Hint: use an index!
+
+* `Answer` : function getFirstCharacter(string1){
+string1 = string1[0];
+return string1;
+}
+
 
 ---------------------------------------------------------------------------
-### Javascript
+### Booleans 
 
 Javascript (JS) is high level interpreted scripting language that conforms to ECMAScript specification.
 
