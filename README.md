@@ -119,4 +119,4 @@ Function name(x, y) {
 }
 
 ### Summary
-In order to maintain a reactive web-browser, it is vital in early development to understand the basics of Javascript. It will work hand in hand with HTML and CSS to allow users to manipulate the browser update material and provide animations. Git is an important tool to review previous changes created by the developers. This allows them to find bugs or errors without having to worry about saving their progress because they save it as they go.
+This was one of the harder weeks that you need to put more effort into. It is difficult for beginners to wrap their head around the math and english concepts. It is ok to ask for help from the instructors or from other class mates. Pay attention to the sentence structures and how to begin your basic basic functions. Review the notes from class.
