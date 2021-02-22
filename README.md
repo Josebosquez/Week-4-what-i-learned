@@ -52,33 +52,53 @@ string1 = string1[0];
 return string1;
 }
 
-
 ---------------------------------------------------------------------------
 ### Booleans 
 
-Javascript (JS) is high level interpreted scripting language that conforms to ECMAScript specification.
+Booleans are used as true or false statements/values using the variables and parameters you provide. These variables must have a relationship in order for them to be true or false. 
 
-Gives us the animation to the skeleton. Tells us how it will move or functions.
+* `Example: ` Let bool1 = true.    Let bool2 = false.
+  
 
-This link goes at the end of the body.
+* `Comparison operator/binary operator` compares the values that you have given it and give you a true or false answer. In this case, the current time is 5. The variable (should i wake) uses the value of 5 and less than 6 to see if you should wake up. The answer is no, you should not wake up.
+Const currentTime = 5
+Const shouldIWake = currentTime < 6 
+shouldIWake; False
 
-* `How to link external JS`
-	<script src. (opening tag) = "script.js" (JS file)></script> (Closing tag)
+A math operator is going to take two numbers and give you back 1 number.
+A binary operator for two.
+* `Double or Triple (=)` - is comparison operator. Comparing two things not equaling to things. Double is somewhat true or close enough.
 
-* `Internal JS with html`
-<script> (your JS code goes inside this script tag) </script>. Also it can go inside the body tag all the way in the end before the closing tag </body>
+- using the example above, 
+Const alarmSetFor = 7;
+Const isAlarmGoingOff = currentTime == alarmSetFor;
+isAlarmGoingOff; true
 
-#### Variables 
-  - JavaScript variables are containers for storing data values.
-  - Creating a variable in javascript is called declaring a variable; you declare a javascript variable with the keywords: let, const, or var (but we don’t use var).
+- Const result = "8" == 8; true
+Const result = "8" === 8; false
+
+* `% = Mod` - mod divides the number. Example Num % 2 === 0 means that if it is divisible by 2 and equals 0 its even. If not its odd.
+!== not equal
+
+A logical operator and only if both things are true
+Const hasMoney = false;
+Const isHungry = true;
+Const shouldIGoOutToEast = hasMoney && isHungry;
+shouldIGoOutToEat; false
+---------------------------------------------------------------------------
+
+#### If Statements
+  - If statements are used to make additional actions without the need to create extra lines or functions. If this doesnt work, then the 
+
+
+
+
+
+
 
 #### JS primitive data types
-* `Strings` - string of letters or numbers used to form paragraphs or sentences.
-- Written with quotes. You can use single or double quotes. 
-	- Let name = 'hello world'
-	- Const name = 'hello world'
-	- Let name = "hello world"
-	- Const name = "hello world"
+* `Strings` - 
+
 * `Numbers` - actual numbers that can be written with, or without decimals. 
 	- Let age = 2
 	- Const age = 2.5
