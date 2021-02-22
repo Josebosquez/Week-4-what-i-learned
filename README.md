@@ -88,42 +88,35 @@ shouldIGoOutToEat; false
 ---------------------------------------------------------------------------
 
 #### If Statements
-  - If statements are used to make additional actions without the need to create extra lines or functions. If this doesnt work, then the 
+  - If statements are used to make additional actions without the need to create extra lines or functions. If this doesnt work, then do this action, or the next action. These actions will be separated by {} and will have the word if or else. 
+* `Example` 
+Const grade = 40;
+If (grade < 60) {
+Console.log("F!")
+Console.log("(Oops!)")
+If (grade >= 60) {
+Console.log("P") ----P!
+Console.log("Yay!") ----Yay!
 
+* `Example` 
+function instructorHeight (string) {
+if (string == "Colin"){
+return 62
+} 
+if (string == "Mesuara"){
+return 69
+}
+else return "I don't know that instructor!"
+}
+---------------------------------------------------------------------------
 
+#### Return
+Is basically the same thing as console.log but it returns the value of a variable from the given function .
 
-
-
-
-
-#### JS primitive data types
-* `Strings` - 
-
-* `Numbers` - actual numbers that can be written with, or without decimals. 
-	- Let age = 2
-	- Const age = 2.5
-* `Booleans` - true and false question answers.
-* `NaN` - did not cover
-* `Null` - did not cover
-* `Undefined` - a variable that has no value. 
-
-#### Console.log
-* `Console.log` allows us to "run" our variables. 
-    ('hello world;).   hit control+c anytime to enter repl.
-<Cant give a console.log (name) before it happens.>
-
-- Let greeting (greeting is the variable) = 'hello world'
-- If we run Console.log (greeting {value}) - will be a value if not surrounded by quotation marks.
-
-* `In order for a variable to have a value, it must not have quotes.`
-* `Semi-colons` - are not necessary unless the group/team wants them.
-* `Quokka` - in order to see certain changes, it is at times recommended to turn on/off Quokka.
-* `Reassigning a variable` Numbers don't work as regular math. The variables are given value by the value and by the order of sequence.  
-    - let a = 1
-    - let b = 1
-    - a = b + 1 (a = 1 + 1) {2 = 1 + 1}
-    - the value of a is now 2. 
-
+* `Example` 
+Function name(x, y) {
+	Return x + y;
+}
 
 ### Summary
 In order to maintain a reactive web-browser, it is vital in early development to understand the basics of Javascript. It will work hand in hand with HTML and CSS to allow users to manipulate the browser update material and provide animations. Git is an important tool to review previous changes created by the developers. This allows them to find bugs or errors without having to worry about saving their progress because they save it as they go.
